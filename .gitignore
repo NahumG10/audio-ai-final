@@ -1,0 +1,48 @@
+# Data (too large for GitHub)
+data/
+*.wav
+*.mp3
+*.flac
+*.stem.mp4
+
+# Model checkpoints and outputs
+vocal_isolation/checkpoints/
+vocal_isolation/outputs/
+vocal_isolation/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Documents / non-code files
+*.pdf
+*.pptx
+*.docx
+*.mp4
+
+# Markdown docs (presentation scripts, proposals)
+Presentation_Script.md
+Presentation_Slides_Final.md
+Project_Proposal_Slides.md
+Project_Report.md
