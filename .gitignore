@@ -1,14 +1,15 @@
 # Data (too large for GitHub)
 data/
-*.wav
 *.mp3
 *.flac
 *.stem.mp4
 
-# Model checkpoints and outputs
+# Model checkpoints and logs
 vocal_isolation/checkpoints/
-vocal_isolation/outputs/
 vocal_isolation/logs/
+
+# Allow output WAV files
+!vocal_isolation/outputs/**/*.wav
 
 # Python
 __pycache__/
